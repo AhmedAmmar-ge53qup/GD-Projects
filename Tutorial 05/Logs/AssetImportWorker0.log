@@ -180,3 +180,4 @@ Received Import Request.
 Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ad5c70c87cbeb2e2886c822e3ffce') in 0.017301 seconds 
   Import took 0.019822 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
