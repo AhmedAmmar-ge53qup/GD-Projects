@@ -16,10 +16,9 @@ public class Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!rb.useGravity)
-        {
-            rb.transform.position = onhand.transform.position + new Vector3(0, 0, 1);
-        }
+        if (!rb.useGravity)
+            rb.transform.position = onhand.transform.position;
+        
     }
 
     private void OnMouseDown()
