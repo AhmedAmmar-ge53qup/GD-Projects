@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: f08ef903cb4597542af7df9de7c698d6
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1
+    second: {fileID: 2100000, guid: 2855a0c1f87438d489bfe122cf3372b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth
+    second: {fileID: 2100000, guid: 9f12f685f89e6514b86b27f616b1ac85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1d00e7475e7c604479c22888e77a9307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 6045b835b34e2ad4496acf7bc86862b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 64a8093f781fd3c4fbcb1a62fc582b33, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: skirt_flakes
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: soldier91
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: soldier76
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: soldier13
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: soldier119
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: warrior(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: skirt_flakes
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier1
+      parentName: skirt_flakes
+      position: {x: 0.0073426543, y: 0.16782042, z: 0.016081758}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier2
+      parentName: skirt_flakes
+      position: {x: 0.00975126, y: 0.16782226, z: 0.014291489}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier3
+      parentName: skirt_flakes
+      position: {x: 0.011701976, y: 0.16782533, z: 0.01204186}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier4
+      parentName: skirt_flakes
+      position: {x: 0.013131504, y: 0.16782948, z: 0.0094369855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier5
+      parentName: skirt_flakes
+      position: {x: 0.014065211, y: 0.16783452, z: 0.0066003734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier6
+      parentName: skirt_flakes
+      position: {x: 0.014271729, y: 0.16784021, z: 0.0033927162}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier7
+      parentName: skirt_flakes
+      position: {x: 0.013617304, y: 0.16784629, z: 0.00060389936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier8
+      parentName: skirt_flakes
+      position: {x: 0.012395923, y: 0.16785236, z: -0.002006432}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier9
+      parentName: skirt_flakes
+      position: {x: 0.010683164, y: 0.16785818, z: -0.0044452394}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier10
+      parentName: skirt_flakes
+      position: {x: 0.008477641, y: 0.16786356, z: -0.006483016}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier11
+      parentName: skirt_flakes
+      position: {x: 0.0058813584, y: 0.16786823, z: -0.008018402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier12
+      parentName: skirt_flakes
+      position: {x: 0.0031207253, y: 0.16787197, z: -0.009055767}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier13
+      parentName: skirt_flakes
+      position: {x: 0.000047578214, y: 0.16787462, z: -0.0095353825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier14
+      parentName: skirt_flakes
+      position: {x: -0.0030296156, y: 0.16787605, z: -0.009125341}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier15
+      parentName: skirt_flakes
+      position: {x: -0.0058448217, y: 0.16787621, z: -0.008129854}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier16
+      parentName: skirt_flakes
+      position: {x: -0.008461835, y: 0.16787511, z: -0.0066427523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier17
+      parentName: skirt_flakes
+      position: {x: -0.010694134, y: 0.16787277, z: -0.0046463455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier18
+      parentName: skirt_flakes
+      position: {x: -0.012438052, y: 0.16786933, z: -0.002239924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier19
+      parentName: skirt_flakes
+      position: {x: -0.013699269, y: 0.16786493, z: 0.0003474222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier20
+      parentName: skirt_flakes
+      position: {x: -0.0143889515, y: 0.16785978, z: 0.0031216296}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier21
+      parentName: skirt_flakes
+      position: {x: -0.014228708, y: 0.1678541, z: 0.006311406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier22
+      parentName: skirt_flakes
+      position: {x: -0.013326691, y: 0.16784817, z: 0.00918319}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier23
+      parentName: skirt_flakes
+      position: {x: -0.011904112, y: 0.16784208, z: 0.011813381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier24
+      parentName: skirt_flakes
+      position: {x: -0.009977497, y: 0.1678363, z: 0.014099399}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier25
+      parentName: skirt_flakes
+      position: {x: -0.0075875744, y: 0.16783105, z: 0.015935464}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier26
+      parentName: skirt_flakes
+      position: {x: 0.009986858, y: 0.16565043, z: 0.017267562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier27
+      parentName: skirt_flakes
+      position: {x: 0.012548699, y: 0.16565548, z: 0.014855386}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier28
+      parentName: skirt_flakes
+      position: {x: 0.014513516, y: 0.16566217, z: 0.0119607495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier29
+      parentName: skirt_flakes
+      position: {x: 0.015859304, y: 0.16567008, z: 0.008807802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier30
+      parentName: skirt_flakes
+      position: {x: 0.016554615, y: 0.16567886, z: 0.0054626}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier31
+      parentName: skirt_flakes
+      position: {x: 0.016225807, y: 0.16568798, z: 0.0018670427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier32
+      parentName: skirt_flakes
+      position: {x: 0.015115151, y: 0.16569704, z: -0.0015292973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier33
+      parentName: skirt_flakes
+      position: {x: 0.013425786, y: 0.16570579, z: -0.004571757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier34
+      parentName: skirt_flakes
+      position: {x: 0.011118431, y: 0.16571379, z: -0.0072405343}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier35
+      parentName: skirt_flakes
+      position: {x: 0.0083052125, y: 0.16572061, z: -0.009368108}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier36
+      parentName: skirt_flakes
+      position: {x: 0.005229073, y: 0.16572598, z: -0.0108561795}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier37
+      parentName: skirt_flakes
+      position: {x: 0.0018690485, y: 0.16572966, z: -0.011778061}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier38
+      parentName: skirt_flakes
+      position: {x: -0.001923035, y: 0.16573146, z: -0.011817015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier39
+      parentName: skirt_flakes
+      position: {x: -0.0052543413, y: 0.16573137, z: -0.010938048}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier40
+      parentName: skirt_flakes
+      position: {x: -0.008424272, y: 0.1657296, z: -0.009500267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier41
+      parentName: skirt_flakes
+      position: {x: -0.011273012, y: 0.16572618, z: -0.007417971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier42
+      parentName: skirt_flakes
+      position: {x: -0.013617193, y: 0.1657213, z: -0.0047875554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier43
+      parentName: skirt_flakes
+      position: {x: -0.015346809, y: 0.16571496, z: -0.0017833743}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier44
+      parentName: skirt_flakes
+      position: {x: -0.01648601, y: 0.1657074, z: 0.0015430227}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier45
+      parentName: skirt_flakes
+      position: {x: -0.01687297, y: 0.16569895, z: 0.0051719574}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier46
+      parentName: skirt_flakes
+      position: {x: -0.016214818, y: 0.16568984, z: 0.00853115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier47
+      parentName: skirt_flakes
+      position: {x: -0.014896283, y: 0.16568069, z: 0.011710176}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier48
+      parentName: skirt_flakes
+      position: {x: -0.012957732, y: 0.16567191, z: 0.014635785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier49
+      parentName: skirt_flakes
+      position: {x: -0.010415921, y: 0.165664, z: 0.017090393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier50
+      parentName: skirt_flakes
+      position: {x: 0.012989429, y: 0.16334295, z: 0.017908935}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier51
+      parentName: skirt_flakes
+      position: {x: 0.015598464, y: 0.16334394, z: 0.014866776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier52
+      parentName: skirt_flakes
+      position: {x: 0.017461877, y: 0.16334541, z: 0.011448095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier53
+      parentName: skirt_flakes
+      position: {x: 0.018658621, y: 0.16334733, z: 0.007737803}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier54
+      parentName: skirt_flakes
+      position: {x: 0.018881505, y: 0.16334955, z: 0.0036810313}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier55
+      parentName: skirt_flakes
+      position: {x: 0.01796483, y: 0.16335204, z: -0.00032218455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier56
+      parentName: skirt_flakes
+      position: {x: 0.016376805, y: 0.16335472, z: -0.0039091054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier57
+      parentName: skirt_flakes
+      position: {x: 0.014066263, y: 0.16335739, z: -0.0071589556}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier58
+      parentName: skirt_flakes
+      position: {x: 0.011116586, y: 0.16335993, z: -0.009910728}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier59
+      parentName: skirt_flakes
+      position: {x: 0.0077115274, y: 0.16336222, z: -0.011988172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier60
+      parentName: skirt_flakes
+      position: {x: 0.0040360703, y: 0.16336414, z: -0.0132955285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier61
+      parentName: skirt_flakes
+      position: {x: -0.000035115034, y: 0.1633656, z: -0.013900294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier62
+      parentName: skirt_flakes
+      position: {x: -0.0041071135, y: 0.1633668, z: -0.013361459}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier63
+      parentName: skirt_flakes
+      position: {x: -0.007809303, y: 0.16336802, z: -0.012113938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier64
+      parentName: skirt_flakes
+      position: {x: -0.011235369, y: 0.16336913, z: -0.010092222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier65
+      parentName: skirt_flakes
+      position: {x: -0.014235263, y: 0.16336961, z: -0.007390028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier66
+      parentName: skirt_flakes
+      position: {x: -0.01660239, y: 0.16336942, z: -0.00419426}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier67
+      parentName: skirt_flakes
+      position: {x: -0.018223025, y: 0.16336855, z: -0.0006500846}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier68
+      parentName: skirt_flakes
+      position: {x: -0.019174218, y: 0.16336703, z: 0.0033016047}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier69
+      parentName: skirt_flakes
+      position: {x: -0.01901915, y: 0.16336486, z: 0.0073954086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier70
+      parentName: skirt_flakes
+      position: {x: -0.017901856, y: 0.16336222, z: 0.0111203585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier71
+      parentName: skirt_flakes
+      position: {x: -0.016076056, y: 0.16335937, z: 0.014578149}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier72
+      parentName: skirt_flakes
+      position: {x: -0.013495765, y: 0.16335632, z: 0.017663373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier73
+      parentName: skirt_flakes
+      position: {x: 0.015932215, y: 0.16083945, z: 0.017714154}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier74
+      parentName: skirt_flakes
+      position: {x: 0.018397842, y: 0.16084275, z: 0.01419538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier75
+      parentName: skirt_flakes
+      position: {x: 0.019983377, y: 0.16084634, z: 0.010254148}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier76
+      parentName: skirt_flakes
+      position: {x: 0.02080606, y: 0.16085006, z: 0.0060233707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier77
+      parentName: skirt_flakes
+      position: {x: 0.02030635, y: 0.16085386, z: 0.0015369314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier78
+      parentName: skirt_flakes
+      position: {x: 0.018959641, y: 0.16085742, z: -0.0026297632}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier79
+      parentName: skirt_flakes
+      position: {x: 0.016774885, y: 0.16086063, z: -0.006377808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier80
+      parentName: skirt_flakes
+      position: {x: 0.013830837, y: 0.16086332, z: -0.009606806}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier81
+      parentName: skirt_flakes
+      position: {x: 0.010384709, y: 0.1608654, z: -0.01224666}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier82
+      parentName: skirt_flakes
+      position: {x: 0.006471709, y: 0.1608668, z: -0.014117468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier83
+      parentName: skirt_flakes
+      position: {x: 0.00225605, y: 0.16086756, z: -0.015157082}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier84
+      parentName: skirt_flakes
+      position: {x: -0.002406023, y: 0.16086777, z: -0.0152064115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier85
+      parentName: skirt_flakes
+      position: {x: -0.006656111, y: 0.16086732, z: -0.014219195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier86
+      parentName: skirt_flakes
+      position: {x: -0.010597418, y: 0.16086628, z: -0.012412858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier87
+      parentName: skirt_flakes
+      position: {x: -0.014147948, y: 0.16086459, z: -0.009826053}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier88
+      parentName: skirt_flakes
+      position: {x: -0.017122518, y: 0.16086224, z: -0.006649619}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier89
+      parentName: skirt_flakes
+      position: {x: -0.019337464, y: 0.1608593, z: -0.0029445225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier90
+      parentName: skirt_flakes
+      position: {x: -0.020721762, y: 0.1608559, z: 0.001135804}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier91
+      parentName: skirt_flakes
+      position: {x: -0.02126006, y: 0.1608522, z: 0.005654975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier92
+      parentName: skirt_flakes
+      position: {x: -0.0204475, y: 0.16084838, z: 0.009895063}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier93
+      parentName: skirt_flakes
+      position: {x: -0.018865887, y: 0.16084468, z: 0.013858872}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier94
+      parentName: skirt_flakes
+      position: {x: -0.01639707, y: 0.1608412, z: 0.017408846}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier95
+      parentName: warrior(Clone)
+      position: {x: 0.08921662, y: 0.21493702, z: 0.012531029}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: soldier96
+      parentName: warrior(Clone)
+      position: {x: 0.020916319, y: 0.23801118, z: -0.0015194833}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier97
+      parentName: warrior(Clone)
+      position: {x: 0.023223318, y: 0.23978381, z: -0.0015194827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier98
+      parentName: warrior(Clone)
+      position: {x: -0.020838572, y: 0.23723371, z: -0.0015194833}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier99
+      parentName: warrior(Clone)
+      position: {x: -0.022990078, y: 0.24001707, z: -0.0015194827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier100
+      parentName: warrior(Clone)
+      position: {x: 0.014128719, y: 0.009599146, z: 0.01803772}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier101
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.26999998, z: 0.009955643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: soldier102
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.26999998, z: 0.009955643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier103
+      parentName: warrior(Clone)
+      position: {x: 0.011772344, y: 0.050490458, z: 0.0015626651}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier104
+      parentName: warrior(Clone)
+      position: {x: 0.01166049, y: 0.055298354, z: 0.006561341}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier105
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.050490458, z: -0.004292421}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier106
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.055298354, z: 0.00050966826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier107
+      parentName: warrior(Clone)
+      position: {x: 0.01146581, y: 0.09581308, z: 0.0055860826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier108
+      parentName: warrior(Clone)
+      position: {x: 0.011667862, y: 0.095099315, z: 0.011429316}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier109
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.09581308, z: 0.00063477753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier110
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.095099315, z: 0.006475078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier111
+      parentName: warrior(Clone)
+      position: {x: 0.011670381, y: 0.11996672, z: 0.007379237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier112
+      parentName: warrior(Clone)
+      position: {x: 0.011820727, y: 0.12072606, z: 0.013549969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier113
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.11996672, z: 0.007842585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier114
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.12072606, z: 0.012367991}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier115
+      parentName: warrior(Clone)
+      position: {x: 0.0059943967, y: 0.20159878, z: 0.03378381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier116
+      parentName: warrior(Clone)
+      position: {x: 0.00021836328, y: 0.20916383, z: 0.0022283865}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier117
+      parentName: warrior(Clone)
+      position: {x: 0.0044296733, y: 0.20318201, z: 0.033598375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier118
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.009599146, z: 0.010747003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier119
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.21744776, z: 0.012531027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier120
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.14130285, z: 0.0073381946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier121
+      parentName: warrior(Clone)
+      position: {x: -0.09482671, y: 0.15225817, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier122
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.17200214, z: 0.0041427566}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier123
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.24373193, z: -0.00092495617}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier124
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.15619092, z: 0.0017887639}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier125
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.1007292, z: 0.0041867257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier126
+      parentName: warrior(Clone)
+      position: {x: -0, y: 0.20510954, z: 0.0016065431}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
